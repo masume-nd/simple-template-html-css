@@ -1,0 +1,29 @@
+#strip{
+    border: 2px solid forestgreen;
+    background-color: forestgreen;
+    width: auto;
+    height: 12px;
+}
+ul.navBar{
+
+    list-style-type: none;
+    display: flex;
+    border: white 1px solid;
+    padding: 35px;
+    margin: 0;
+    padding-right: 280px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+}
+#title{
+    text-align: center;
+    font-weight: bold;
+}
+ul.description{
+    list-style-type: none;
+    display: flex;
+    border: white 1px solid;
+}
