@@ -21,9 +21,14 @@ li a{
 #title{
     text-align: center;
     font-weight: bold;
+    font-size:x-large;
 }
 ul.description{
     list-style-type: none;
     display: flex;
     border: white 1px solid;
+}
+
+#line{
+    border: 2px solid gainsboro;
 }
