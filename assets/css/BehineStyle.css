@@ -1,0 +1,163 @@
+@import url(fontiran.css);
+*{
+	font-family: IRANSans ;
+	font-weight: normal;
+}
+body{
+    overflow: hidden;
+}
+#strip{
+    border: 2px solid forestgreen;
+    background-color: forestgreen;
+    width: auto;
+    height: 12px;
+}
+ul.navBar{
+
+    list-style-type: none;
+    display: flex;
+    border: white 1px solid;
+    padding: 35px 25px 20px 50px;
+    position: absolute;
+    margin-top: -10px;
+    padding-right: 240px;
+}
+.navBar li a{
+    text-decoration: none;
+    font-size: small;
+    color: black;
+    padding: 2px 20px;
+    margin-right: 15px;
+}
+.navBar li a:hover{
+    color: white;
+}
+#title{
+    color: rgb(66, 63, 63);
+    text-align: center;
+    font-weight: bold;
+    font-size:x-large;
+    margin-top: 10px;
+}
+
+.description{
+    list-style-type: none;
+    display: flex;
+    border: white 1px solid; 
+    padding: 10px 180px 0 0; 
+}
+.description div{
+    text-decoration: none;
+    color: black;
+    padding: 150px 20px;
+    display: flex;
+}
+.container1{
+    width: 170px;
+    height: 170px;
+    border: 5px ;
+    display:flex;
+}
+
+img{
+    margin: 15px;
+    width: 55px;
+    height: 55px;
+}
+.image{
+    height: 90px;
+    width: 90px;
+    background-color:rgb(248, 202, 50);
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 5%;
+    margin-right:90%;
+    margin-left: 10%;
+    margin-bottom: 0;
+    padding: 12%;
+} 
+#line{
+    border: 2px solid gainsboro;
+}
+a:hover{
+    border: 2px solid #80b380;
+    border-radius: 50px;
+    background-color: #80b380; 
+    color: white; 
+    padding: 2px 10px; 
+    display: 70px;
+}
+
+.bottom{
+    border: 2px solid gainsboro;
+    height: 250px;
+    margin-top: 70px;
+    background-color: gainsboro;
+
+} 
+.container2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-left: 10%;
+}
+.card{
+    background-color: white;
+    width: 200px;
+    height: 150px;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-right: 60px;
+    margin-left: 1px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.container2 img{
+    width: 50px;
+    height: 50px;
+    margin-right: 70px;
+    margin-top: 20px;
+    margin-bottom: 10;
+    display: inline-block;
+}
+.container2 p{
+    color: green;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 1px;
+}
+h3{
+    text-align: center;
+    margin-bottom: 5px;
+    margin-right: 5%;
+}
+.card::after {
+    content: "";
+    height: 0px;
+    position: absolute;
+    width: 200px;
+    background-color: green;
+    transition: all 0.6s;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+.card:hover::after {
+    height: 11px;
+  }
+.logo{
+    background-image: url(/assets/icons/green-home.png);
+    background-repeat: no-repeat;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-right: 50px;
+    width: 70px;
+    height: 70px;
+    align-items: center;
+    margin: 10px 120px 10px 50px;
+}
+  
